@@ -1,13 +1,21 @@
 # Лабораторная работа №4 Базовая коммутация и туннелирование используя язык программирования P4
 ---
 University: [ITMO University](https://itmo.ru/ru/)
+
 Faculty: [FICT](https://fict.itmo.ru)
+
 Course: [Network programming](https://github.com/itmo-ict-faculty/network-programming)
+
 Year: 2023/2024
+
 Group: K34202
+
 Author: Sorokin Nikita Alekseevich
+
 Lab: Lab4
+
 Date of create: 29.11.2023
+
 Date of finished: 3.12.2023
 
 # Цель работы
@@ -33,9 +41,10 @@ vagrant up
 make run
 ```
 5. В результате запуска должна создаться сеть следующего вида
-![[src/Pasted image 20231203052312.png]]
+![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab4/src/Pastedimage20231203052312.png)
 6. Проверим работоспособность узнав имя текущего пользователя mininet
-![[src/Pasted image 20231203052407.png]]
+
+![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab4/src/Pastedimage20231203052407.png)
 ## Basic Forwarding
 1. В данном упражнении нужно дополнить скрипт basic.p4 так, чтобы в сети заработала переадресация IP-пакетов. Подробности задания и подсказки к написанию парсера свитча находятся в обучающем репозитории.
 	Итоговый код:
@@ -280,11 +289,11 @@ MyDeparser()
 
 ```
 7. Проверим работу скрипта
-![[src/Pasted image 20231203053107.png]]
+![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab4/src/Pastedimage20231203053107.png)
 ## Basic Tunneling
 
 В данном упражнении требуется реализовать туннелирование. Должна получиться сеть следующего вида
-![[src/Pasted image 20231203053336.png]]
+![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab4/src/Pastedimage20231203053336.png)
 1. Введем новую константу заголовка и структуру
 ```
 const bit<16> TYPE_MYTUNNEL = 0x1212;
