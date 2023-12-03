@@ -87,6 +87,6 @@ ansible-playbook ansible-playbook.yml -i hosts.ini
 ```
 5. Проверим проведенные настройки Ansible
 ![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab2/src/Lab2_1.png)
-![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab2/src/Pasted image 20231203040958.png)
+![img](https://github.com/S-txt/2023_2024-network_programming-k34202-sorokin_n_a/blob/main/lab2/src/Pastedimage20231203040958.png)
 # Вывод
 В результате выполнения лабораторной работы была создана дополнительная виртуальная машина CHR 2, на ней проведены все настройки OpenVPN из лабораторной работы 1. Созданы два файла конфигураций Ansible: файл инвентаризации hosts.ini и Ansible playbook со списком команд для конфигурации роутеров и сбора данных
